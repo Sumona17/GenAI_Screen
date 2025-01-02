@@ -1,0 +1,49 @@
+{
+  "lineOfBusiness": "Commercial",
+  "formName": "Insured Info",
+  "sections": [
+    {
+      "title": "Primary Insured",
+      "fields": [
+        {
+          "fieldLabel": "OrganizationType",
+          "fieldType": "dropdown",
+          "fieldRequired": "true",
+          "options": [
+            {
+              "label": "Public"
+            },
+            {
+              "label": "Private"
+            }
+          ],
+          "value": ""
+        },
+        {
+          "fieldLabel": "Insured Number",
+          "fieldType": "number",
+          "fieldRequired": "true",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "title": "Contact Information",
+      "fields": [
+        {
+          "fieldLabel": "Country Code",
+          "fieldType": "text",
+          "fieldRequired": "true",
+          "value": ""
+        },
+        {
+          "fieldLabel": "Phone number",
+          "fieldType": "number",
+          "fieldRequired": "true",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "status": "Active"
+}

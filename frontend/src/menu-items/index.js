@@ -5,7 +5,7 @@ import userMenuItems1 from './userMenuItems1';
 // ==============================|| MENU ITEMS ||============================== //
 
 const menuItems = {
-  items: [dashboard, other, userMenuItems1]
+  items: [dashboard, userMenuItems1]
 };
 
 export default menuItems;

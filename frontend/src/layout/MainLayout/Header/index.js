@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 // material-ui
 import { useTheme } from '@mui/material/styles';
-import { Avatar, Box, ButtonBase } from '@mui/material';
+import { Avatar, Box, ButtonBase, Typography } from '@mui/material';
 
 // project imports
 import LogoSection from '../LogoSection';
@@ -55,8 +55,33 @@ const Header = ({ handleLeftDrawerToggle }) => {
         </ButtonBase>
       </Box>
 
-      {/* header search */}
+      {/* Header search */}
       <SearchSection />
+
+      {/* "Our GenAI Experience" heading */}
+      <Box
+        sx={{
+          display: 'flex',
+          alignItems: 'center',
+          ml: 2,
+          mt: 1, // Spacing
+        }}
+      >
+        <Typography
+          variant="h2"
+          sx={{
+            color: '#6c63ff', // Purple shade matching the dashboard
+            fontWeight: 'bold',
+            textTransform: 'uppercase',
+            textShadow: '1px 1px 3px rgba(108, 99, 255, 0.8)', // Subtle shadow for emphasis
+            background: `linear-gradient(to right, #6c63ff, #4d4db2)`, // Purple gradient
+            WebkitBackgroundClip: 'text',
+            WebkitTextFillColor: 'transparent',
+          }}
+        >
+          Our GenAI Experience
+        </Typography>
+      </Box>
       <Box sx={{ flexGrow: 1 }} />
       <Box sx={{ flexGrow: 1 }} />
 

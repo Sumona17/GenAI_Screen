@@ -8,7 +8,7 @@ const icons = { IconDashboard };
 
 const dashboard = {
   id: 'dashboard',
-  title: 'Underwriting Workbench',
+  title: '',
   type: 'group',
   children: [
     {

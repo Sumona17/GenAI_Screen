@@ -4,6 +4,9 @@ import { lazy } from 'react';
 import MainLayout from 'layout/MainLayout';
 import Loadable from 'ui-component/Loadable';
 import UITabs from 'views/dynamic-forms/UITabs';
+import FirstScreen from 'ScreenComponents/firstScreen';
+import Login from 'ScreenComponents/login';
+import SecondScreen from 'ScreenComponents/secondScreen';
 
 // dashboard routing
 const DashboardDefault = Loadable(lazy(() => import('views/dashboard/Default')));
@@ -26,7 +29,7 @@ const MainRoutes = {
   children: [
     {
       path: '/',
-      element: <DashboardDefault />
+      element: <Login /> // Set Login as the default route
     },
     {
       path: 'dashboard',
@@ -89,6 +92,15 @@ const MainRoutes = {
     {
       path: 'free/new-submission',
       element: <UITabs />
+    },
+    
+    {
+      path: 'free/first-Screen',
+      element: <FirstScreen />
+    },
+    {
+      path: 'free/second-Screen',
+      element: <SecondScreen/>
     }
   ]
 };

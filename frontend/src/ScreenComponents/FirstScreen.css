@@ -1,0 +1,37 @@
+.first-screen {
+    background-color: rgb(225, 234, 253);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Adjusted to place cards at the top */
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px; /* Added padding for spacing */
+}
+
+.cards-container {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px; /* Slight margin to avoid touching the very top */
+}
+
+.card {
+    background-color:white;
+    color: rgb(20, 19, 19);
+    width: 260px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 21px;
+    font-weight: 500;
+    border-radius: 8px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added transition */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Hover lift effect */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}

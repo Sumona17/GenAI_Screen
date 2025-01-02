@@ -1,0 +1,127 @@
+/* Updated Login Container Styling */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #e259ee, #4a00e0); /* Gradient background */
+}
+
+/* Updated Login Box Styling */
+.login-box {
+    background-color: white;
+    padding: 3rem;
+    border-radius: 16px; /* Rounded corners */
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2); /* Enhanced shadow for depth */
+    text-align: center;
+    width: 400px;
+}
+
+/* Title Styling */
+.login-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+/* Input Group Styling */
+.input-group {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.login-input {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-bottom: 2px solid #ccc; /* Underline instead of border box */
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+    outline: none;
+}
+
+.login-input:focus {
+    border-bottom-color: #8e2de2; /* Match gradient colors */
+}
+
+.input-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #8e2de2;
+}
+
+/* Password Links Styling */
+.password-links {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+
+.password-links .link {
+    color: #8e2de2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.password-links .link:hover {
+    text-decoration: underline;
+}
+
+/* Submit Button Styling */
+.submit-button {
+    width: 100%;
+    height: 50px;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    border: none;
+    border-radius: 50px; /* Circular button */
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.submit-button:hover {
+    background: linear-gradient(to right, #4a00e0, #8e2de2); /* Reverse gradient */
+}
+
+/* Social Login Buttons */
+.social-login {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.social-login img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.social-login img:hover {
+    transform: scale(1.1);
+}
+
+/* Sign Up Section */
+.signup-section {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.signup-section .link {
+    color: #8e2de2;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.signup-section .link:hover {
+    text-decoration: underline;
+}

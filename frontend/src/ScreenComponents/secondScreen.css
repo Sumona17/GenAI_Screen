@@ -1,0 +1,44 @@
+/* Container styling */
+.screen-container {
+background-color: rgb(225, 234, 253);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* Small card styling */
+.card-small {
+    background-color:white;
+  width: 200px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px; /* Optional: Rounded corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Shadow for cards */
+}
+
+/* Large card styling */
+.card-large {
+    background-color:white;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px; /* Optional: Rounded corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Shadow for cards */
+}
+
+/* Common text styling */
+.card-text {
+  color: rgb(20, 19, 19);
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+}

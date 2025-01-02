@@ -11,27 +11,20 @@ const userMenuItems1 = {
   title: 'User Menu Items',
   type: 'group',
   children: [
+   
     {
-      id: 'accountInformation',
-      title: 'Account Information',
+      id: 'firstScreen', // Add FirstScreen menu item
+      title: 'Screen1',
       type: 'item',
-      url: '/free/new-submission',
+      url: '/free/first-Screen', // URL for FirstScreen
       icon: icons.IconDashboard,
       breadcrumbs: false
     },
     {
-      id: 'accountDetails',
-      title: 'Account Details',
+      id: 'secondScreen', // Add FirstScreen menu item
+      title: 'Screen2',
       type: 'item',
-      url: '/free/new-submission',
-      icon: icons.IconDashboard,
-      breadcrumbs: false
-    },
-    {
-      id: 'newSubmission',
-      title: 'New Submission',
-      type: 'item',
-      url: '/free/new-submission',
+      url: 'free/second-Screen', // URL for FirstScreen
       icon: icons.IconDashboard,
       breadcrumbs: false
     }

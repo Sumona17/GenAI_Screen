@@ -23,7 +23,7 @@ const GenerateFile = () => {
         <p>
           Transform your user stories into BDD feature file scenarios seamlessly.
         </p>
-        <h5>How To Use:</h5>
+        <h4>How To Use:</h4>
         <ol>
           <li>
             Prepare your user stories in an Excel sheet, with each user story in a

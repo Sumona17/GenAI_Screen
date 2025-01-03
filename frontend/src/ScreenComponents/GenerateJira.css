@@ -1,0 +1,72 @@
+.generate-jira-wrapper {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .generate-jira-instructions {
+     padding: 10px;
+    margin-bottom: 20px;
+    background-color: #cfeffc;
+    border-radius: 8px;
+    border: 1px solid #b0dfee;
+  }
+  
+  .generate-jira-instructions h4,
+  .generate-jira-instructions h5 {
+    margin: 5px 0;
+    color: #006699;
+  }
+  
+  .generate-jira-instructions ol {
+    padding-left: 20px;
+  }
+
+  .generate-jira-instructions p {
+    margin: 5px 0;
+    color: #333;
+  }
+  
+
+  .generate-jira-button-disabled
+  .generate-jira-download-button-disabled{
+    background-color: white;
+    color: #1066e7;
+    font-weight: 600;
+    padding: 3px 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+
+  }
+  
+ 
+  
+  .generate-jira-form-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .generate-jira-form-section label {
+    font-weight: bold;
+  }
+  
+  .generate-jira-form-section input,
+  .generate-jira-form-section select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .generate-jira-submit-button {
+    background-color: #ff5757;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .generate-jira-form-section button.generate-jira-submit-button:hover {
+    background-color: #e44e4e;
+  }
+  

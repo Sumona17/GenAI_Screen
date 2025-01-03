@@ -10,7 +10,7 @@ const Login = ({ onLogin }) => {
     if (onLogin) {
       onLogin(); // Trigger the login callback if provided
     }
-    navigate("free/new-submission"); // Navigate to the desired path
+    navigate("/dashboard/default"); // Navigate to the desired path
   };
 
   return (

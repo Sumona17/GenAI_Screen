@@ -11,21 +11,22 @@ const other = {
   type: 'group',
   children: [
     {
-      id: 'sample-page',
-      title: 'Configure',
+      id: 'ourGenAIExperience',
+      title: 'Our GenAI Experience',
       type: 'item',
-      url: '/sample-page',
+      url: '/ourGenAIExperience',
       icon: icons.IconBrandChrome,
       breadcrumbs: false
     },
     {
-      id: 'documentation',
-      title: 'Documentation',
+      id: 'genAISolutionOverview',
+      title: 'GenAI Solution Overview',
       type: 'item',
-      url: 'https://codedthemes.gitbook.io/berry/',
+      url: '/genAISolutionOverview',
       icon: icons.IconHelp,
-      external: true,
-      target: true
+      breadcrumbs: false
+      // external: true,
+      // target: true
     }
   ]
 };

@@ -79,7 +79,7 @@ const Header = ({ handleLeftDrawerToggle }) => {
             WebkitTextFillColor: 'transparent',
           }}
         >
-          Our GenAI Experience
+          {/* Our GenAI Experience */}
         </Typography>
       </Box>
       <Box sx={{ flexGrow: 1 }} />

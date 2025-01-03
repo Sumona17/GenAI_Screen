@@ -1,8 +1,8 @@
 // assets
-import { IconBrandChrome, IconHelp } from '@tabler/icons';
+import { IconBrandChrome, IconHelp, IconReport } from '@tabler/icons';
 
 // constant
-const icons = { IconBrandChrome, IconHelp };
+const icons = { IconBrandChrome, IconHelp,IconReport };
 
 // ==============================|| SAMPLE PAGE & DOCUMENTATION MENU ITEMS ||============================== //
 
@@ -23,7 +23,7 @@ const other = {
       title: 'GenAI Solution Overview',
       type: 'item',
       url: '/genAISolutionOverview',
-      icon: icons.IconHelp,
+      icon: icons.IconReport,
       breadcrumbs: false
       // external: true,
       // target: true

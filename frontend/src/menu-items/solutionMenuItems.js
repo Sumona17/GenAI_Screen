@@ -1,8 +1,24 @@
 // assets
-import { IconDashboard,  IconBrandOpenSource, IconFileAnalytics, IconFileDelta, IconReportAnalytics, } from '@tabler/icons';
+import { 
+  IconDashboard, 
+  IconBrandOpenSource, 
+  IconFileAnalytics, 
+  IconFileDelta, 
+  IconReportAnalytics,
+  IconReportSearch,
+  IconCpuOff
+} from '@tabler/icons';
 
 // constant
-const icons = { IconDashboard,  IconBrandOpenSource, IconFileAnalytics, IconFileDelta, IconReportAnalytics};
+const icons = {
+  IconDashboard,
+  IconBrandOpenSource,
+  IconFileAnalytics,
+  IconFileDelta,
+  IconReportAnalytics,
+  IconReportSearch,
+  IconCpuOff
+};
 
 // ==============================|| DASHBOARD MENU ITEMS ||============================== //
 
@@ -11,47 +27,64 @@ const solutionMenuItems = {
   title: 'Solutions',
   type: 'group',
   children: [
-   
     {
-      id: 'generateBDDFile', // Add FirstScreen menu item
-      title: 'Generate BDD(File)',
-      type: 'item',
-      url: '/generateBDDFile', // URL for FirstScreen
-      icon: icons.IconFileAnalytics,
-      breadcrumbs: false
+      id: 'solution1',
+      title: 'Solution 1',
+      type: 'collapse',
+      icon: icons.IconReportSearch,
+     
+      children: [
+        {
+          id: 'generateBDDFile',
+          title: 'Generate BDD(File)',
+          type: 'item',
+          url: '/generateBDDFile',
+          icon: icons.IconFileAnalytics,
+          breadcrumbs: false
+        }
+      ]
     },
     {
-      id: 'generateBDDJira', // Add FirstScreen menu item
-      title: 'Generate BDD(Jira)',
-      type: 'item',
-      url: '/generateBDDJira', // URL for FirstScreen
-      icon: icons.IconFileDelta,
-      breadcrumbs: false
-    },
-    {
-      id: 'generateTestData', // Add FirstScreen menu item
-      title: 'Generate Test Data',
-      type: 'item',
-      url: '/generateTestData', // URL for FirstScreen
-      icon: icons. IconBrandOpenSource,
-      breadcrumbs: false
-    },
-    {
-      id: 'performanceResultsAnalysis', // Add FirstScreen menu item
-      title: 'Performance Results Analysis',
-      type: 'item',
-      url: '/performanceResultsAnalysis', // URL for FirstScreen
-      icon: icons.IconReportAnalytics,
-      breadcrumbs: false
-    },
-    {
-      id: 'defectPattern', // Add FirstScreen menu item
-      title: 'Defect Pattern',
-      type: 'item',
-      url: '/defectPattern', // URL for FirstScreen
-      icon: icons.IconDashboard,
-      breadcrumbs: false
-    },
+      id: 'solution2',
+      title: 'Solution 2',
+      type: 'collapse',
+      icon: icons.IconReportSearch,
+     
+      children: [
+        {
+          id: 'generateBDDJira',
+          title: 'Generate BDD(Jira)',
+          type: 'item',
+          url: '/generateBDDJira',
+          icon: icons.IconFileDelta,
+          breadcrumbs: false
+        },
+        {
+          id: 'generateTestData',
+          title: 'Generate Test Data',
+          type: 'item',
+          url: '/generateTestData',
+          icon: icons.IconBrandOpenSource,
+          breadcrumbs: false
+        },
+        {
+          id: 'performanceResultsAnalysis',
+          title: 'Performance Results Analysis',
+          type: 'item',
+          url: '/performanceResultsAnalysis',
+          icon: icons.IconReportAnalytics,
+          breadcrumbs: false
+        },
+        {
+          id: 'defectPattern',
+          title: 'Defect Pattern',
+          type: 'item',
+          url: '/defectPattern',
+          icon: icons.IconCpuOff,
+          breadcrumbs: false
+        }
+      ]
+    }
   ]
 };
 

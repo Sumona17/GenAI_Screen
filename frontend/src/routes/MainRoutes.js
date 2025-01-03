@@ -7,6 +7,7 @@ import UITabs from 'views/dynamic-forms/UITabs';
 import FirstScreen from 'ScreenComponents/firstScreen';
 import Login from 'ScreenComponents/login';
 import SecondScreen from 'ScreenComponents/secondScreen';
+import GenerateFile from 'ScreenComponents/GenerateFile';
 
 // dashboard routing
 const DashboardDefault = Loadable(lazy(() => import('views/dashboard/Default')));
@@ -95,12 +96,25 @@ const MainRoutes = {
     },
     
     {
-      path: 'free/first-Screen',
-      element: <FirstScreen />
+      path: '/generateBDDFile',
+      element: <GenerateFile />
+    },
+  
+    {
+      path: '/generateBDDJira',
+      element: <SecondScreen/>
     },
     {
-      path: 'free/second-Screen',
+      path: '/generateTestData',
+      element: <FirstScreen/>
+    },
+    {
+      path: '/performanceResultsAnalysis',
       element: <SecondScreen/>
+    },
+    {
+      path: '/defectPattern',
+      element: <FirstScreen/>
     }
   ]
 };

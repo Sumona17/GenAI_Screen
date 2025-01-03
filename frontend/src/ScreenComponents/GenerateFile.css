@@ -1,0 +1,76 @@
+.generate-file-container {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    padding: 20px;
+    background-color: rgb(225, 234, 253);
+    justify-content: flex-start;
+   
+    width: 100%;
+    
+   
+  }
+  
+  .instructions {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #cfeffc;
+    border-radius: 8px;
+    border: 1px solid #b0dfee;
+  }
+  
+  .instructions h4,
+  .instructions h5 {
+    margin: 0;
+    color: #006699;
+  }
+  
+  .instructions ol {
+    padding-left: 20px;
+  }
+  
+  .instructions p {
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  .file-upload-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .file-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 70%;
+    cursor: pointer;
+  }
+  
+  .generate-button {
+    background-color: #ff5757;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .generate-button:hover {
+    background-color: #e44e4e;
+  }
+  
+  .generate-button-disabled,
+  .download-button-disabled {
+    background-color: #f0f0f0;
+    color: #ccc;
+    padding: 3px 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .generate-button:disabled {
+    cursor: not-allowed;
+  }
+  

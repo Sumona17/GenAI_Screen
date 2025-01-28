@@ -60,14 +60,22 @@
     background-color: #e44e4e;
   }
   
-  .generate-button-disabled,
+  .generate-button-disabled{
+    background-color: #ff5757;
+    color: #fff;
+    font-weight: 600;
+    padding: 6px 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+  }
   .download-button-disabled {
     background-color: white;
     color: #1066e7;
     font-weight: 600;
-    padding: 3px 8px;
+    padding: 6px 8px;
     border: 1px solid #ccc;
-    border-radius: 3px;
+    border-radius: 5px;
   }
   
   .generate-button:disabled {

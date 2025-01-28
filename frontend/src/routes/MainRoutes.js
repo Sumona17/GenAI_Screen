@@ -8,6 +8,7 @@ import FirstScreen from 'ScreenComponents/firstScreen';
 import Login from 'ScreenComponents/login';
 import SecondScreen from 'ScreenComponents/secondScreen';
 import GenerateFile from 'ScreenComponents/GenerateFile';
+import GenerateJira from 'ScreenComponents/GenerateJira';
 
 // dashboard routing
 const DashboardDefault = Loadable(lazy(() => import('views/dashboard/Default')));
@@ -102,19 +103,15 @@ const MainRoutes = {
   
     {
       path: '/generateBDDJira',
-      element: <SecondScreen/>
+      element: <GenerateJira/>
     },
     {
-      path: '/generateTestData',
+      path: '/ourGenAIExperience',
       element: <FirstScreen/>
     },
     {
-      path: '/performanceResultsAnalysis',
+      path: '/genAISolutionOverview',
       element: <SecondScreen/>
-    },
-    {
-      path: '/defectPattern',
-      element: <FirstScreen/>
     }
   ]
 };
